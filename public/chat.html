@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.2/qs.min.js" 
+            integrity="sha512-vCegEXqPUYpZsTGz2lk0jaQ1psxtFeniVJACAXhMVxuoYa/N4nZkjoVFOxLwP7uGeQOoemiz7DQrIpRTj4IBPw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <title>HTML </title>  
+</head>
+<body>
+    <div id="maindiv">
+    <div id="pop">
+        <div id="headline"> <h2> Users Online </h2></div>
+        <div id="line"></div>
+        <div id = "users-online"></div>
+    </div>
+    <div id = "message-container">
+        <div id="headline"> <h2> Chat </h2></div>
+        <div id="line"></div>
+    </div>
+    
+    
+</div>
+    <form id = "form">
+        <label for = "message-text"> Name </label>
+        <input type="text" id = "message-text" name = "hi" placeholder="Enter Message" autocomplete = "false"> 
+        <button id = 'submit-message' type="submit"> Send </button>
+    </form>
+</body>
+</html>

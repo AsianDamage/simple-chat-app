@@ -1,0 +1,91 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+#maindiv {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    min-height: 70%;
+    max-height: 70%;
+    padding: 0;
+    border: 0;
+    width:80%;
+    border: 2px solid rgb(27, 87, 32);
+    background-color: rgb(37, 184, 49);
+}
+#pop {
+
+    min-height: 70%;
+    max-height: 70%;
+    width:20%;
+    border: 2px solid rgb(27, 87, 32);
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+#message-container {
+    left: 0;
+    min-height: 70%;
+    max-height: 70%;
+    min-width:80%;
+    max-width:80%;
+    border: 2px solid rgb(27, 87, 32);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#headline{
+    font-size: smaller;
+    text-align: center;
+    min-height:15%;
+    max-height: 15%;
+    width: 100%;
+    border: 1px solid rgb(27, 87, 32);
+}
+
+#line{
+    height: 0;
+    border:2px solid rgb(27, 87, 32);
+    width:100%;
+}
+#message-container {
+    left: 0;
+    min-height: 70%;
+    max-height: 70%;
+    min-width:80%;
+    max-width:80%;
+    border: 2px solid rgb(27, 87, 32);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.chat-msg{
+    margin-top: 2%;
+    background-color: rgba(27, 87, 32, 0.5);
+    font-size: larger;
+    
+}
+
+form{
+    font-size: larger;
+    margin-left: 10%;
+}
+input{
+    height:5%;
+    width: 80%;
+}
+li{
+    list-style: none;
+    font-size: larger;
+    color:white;
+    font-weight: 1000;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid rgb(0,0,255);
+    background-color: rgba(0,0,255,0.4);
+}

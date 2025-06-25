@@ -1,0 +1,29 @@
+body{
+    background-color: green;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(177, 167, 167, 0.8);
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    width:20%;
+}
+
+input{
+    font-size: larger;
+}
+button{
+    font-size: large;
+}
+#rotate{display:none;}
+#page {display: block;}
+
+@media all and (orientation:portrait) {
+    #page {
+        display:none;
+    }
+    #rotate {
+        display: block;
+    }
+}
