@@ -51,4 +51,4 @@ io.on('connection', socket => {
     })
     
 })
-server.listen(port,'192.168.1.38', () => {console.log(`listening on port ${port}`)})
+server.listen(port, () => {console.log(`listening on port ${port}`)})
