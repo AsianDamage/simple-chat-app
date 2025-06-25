@@ -3,6 +3,8 @@ html,body{
     width:100%;
     margin: 0;
     padding: 0;
+    background-color: rgb(55, 56, 51);
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #maindiv {
@@ -15,15 +17,15 @@ html,body{
     padding: 0;
     border: 0;
     width:80%;
-    border: 2px solid rgb(27, 87, 32);
-    background-color: rgb(37, 184, 49);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darkgray;
 }
 #pop {
 
     min-height: 70%;
     max-height: 70%;
     width:20%;
-    border: 2px solid rgb(27, 87, 32);
+    border: 2px solid rgb(0, 0, 0);
     overflow-y: auto;
     overflow-x: hidden;
     display: flex;
@@ -35,7 +37,7 @@ html,body{
     max-height: 70%;
     min-width:80%;
     max-width:80%;
-    border: 2px solid rgb(27, 87, 32);
+    border: 2px solid rgb(0, 0, 0);
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -46,12 +48,12 @@ html,body{
     min-height:15%;
     max-height: 15%;
     width: 100%;
-    border: 1px solid rgb(27, 87, 32);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 #line{
     height: 0;
-    border:2px solid rgb(27, 87, 32);
+    border:2px solid rgb(0, 0, 0);
     width:100%;
 }
 #message-container {
@@ -60,24 +62,24 @@ html,body{
     max-height: 70%;
     min-width:80%;
     max-width:80%;
-    border: 2px solid rgb(27, 87, 32);
+    border: 2px solid rgb(0, 0, 0);
     overflow-y: auto;
     overflow-x: hidden;
 }
 .chat-msg{
     margin-top: 2%;
     background-color: rgba(27, 87, 32, 0.5);
-    font-size: larger;
+    font-size: large;
     
 }
 
 form{
-    font-size: larger;
+    font-size: large;
     margin-left: 10%;
 }
 input{
     height:5%;
-    width: 80%;
+    width: 84%;
 }
 li{
     list-style: none;
@@ -86,6 +88,9 @@ li{
     font-weight: 1000;
     margin-top: 2%;
     margin-bottom: 2%;
-    border: 2px solid rgb(0,0,255);
-    background-color: rgba(0,0,255,0.4);
+    border: 2px solid rgb(47, 47, 112);
+    background-color: rgba(50, 50, 142, 0.683);
+}
+label {
+    color: rgb(201, 199, 194);
 }

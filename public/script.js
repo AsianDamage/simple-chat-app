@@ -37,7 +37,7 @@ form.addEventListener('submit', (e) => {
 function displayMessage(message) {
     const div = document.createElement('div')
     div.classList.add("chat-msg")
-    div.innerHTML = `<b><i><span style = "color:orange">${message.username}</span> , ${message.time}</i> | <b style = "color:white;"> ${message.text}</b></b>`
+    div.innerHTML = `<b><span style = "color:orange">${message.username}</span> , ${message.time} | <b style = "color:white;"> ${message.text}</b></b>`
     msgcon.append(div)
     messageInput.value = ""
     msgcon.scrollTop = msgcon.scrollHeight;
